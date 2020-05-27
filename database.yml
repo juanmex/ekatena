@@ -1,0 +1,4 @@
+host: localhost
+username: database_user
+password: password_for_root
+database: ekatena
