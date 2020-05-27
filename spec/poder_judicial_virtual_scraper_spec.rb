@@ -1,6 +1,6 @@
 require "./scrapers/poder_judicial_virtual_scraper"
 
-RSpec.describe PoderJudicialVirtualScrapper do
+RSpec.describe PoderJudicialVirtualScraper do
   context "with valid url" do
     it "retrieves the correct info" do
       poder_judicial_scrapper = PoderJudicialVirtualScrapper.new("https://www.poderjudicialvirtual.com/mn-banco-santander-mexico-s-a--banco-santander-mexico")

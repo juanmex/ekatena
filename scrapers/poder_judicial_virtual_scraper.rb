@@ -1,6 +1,6 @@
 require_relative "scraper"
 
-class PoderJudicialVirtualScrapper < Scraper
+class PoderJudicialVirtualScraper < Scraper
   def find_actor
     header_data[1].sub!("Actor:", "").strip
   end
